@@ -22,7 +22,7 @@ const Main = () => {
       <Input header="Enter password..." />
       <CustomButton
         header="Login"
-        onPress={() => navigation.navigate('root/task')}
+        onPress={() => navigation.navigate('root/task', {userName: ''})}
       />
     </View>
   );
